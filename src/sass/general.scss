@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus,
+a:active {
+  color: #333;
+  border-bottom: 1px solid;
+}
+
+a {
+  color: #626262;
+  text-decoration: none;
+}

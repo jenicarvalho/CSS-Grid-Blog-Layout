@@ -1,0 +1,30 @@
+header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 20px;
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      font-size: 14px;
+      text-transform: uppercase;
+
+      &:hover {
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    grid-template-columns: 100%;
+
+    nav {
+      justify-content: space-between;
+    }
+  }
+}
